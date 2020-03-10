@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgvMusic"
+        android:layout_width="101dp"
+        android:layout_height="92dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="290dp"
+        android:layout_marginRight="290dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtTenBH"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="194dp"
+        android:layout_marginRight="194dp"
+        android:textColor="#9C27B0"
+        android:textStyle="bold"
+        tools:text="Tên bài hát">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtTG"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="218dp"
+        android:layout_marginRight="218dp"
+        android:text="Tác giả"
+        android:textColor="#9C27B0" />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="Thời gian"
+        android:textColor="#9C27B0"/>
+
+    <ImageView
+        android:id="@+id/imgvLuachon"
+        android:layout_width="49dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp" />
+</RelativeLayout>

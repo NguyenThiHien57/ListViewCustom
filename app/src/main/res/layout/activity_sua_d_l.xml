@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuaDL">
+
+    <EditText
+        android:id="@+id/edtBH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tên bài hát mới">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtTG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tên tác mới">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Thời gian mới">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnXN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hủy">
+
+    </Button>
+</LinearLayout>
